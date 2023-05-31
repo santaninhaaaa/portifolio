@@ -12,6 +12,10 @@
     border: #fff solid 0.5rem;
 }
 
+.nome {
+    margin-top: 35vh;
+}
+
 @media (max-width: 576px) {
     .banner {
         background-position: 15%;
