@@ -31,6 +31,53 @@
     font-family:'8-bit Operator+ Bold', monospace;
 }
 
+.habilidades {
+    font-family:'8-bit Operator+ Bold', monospace;
+}
+
+.progress-bar{
+    font-family:'8-bit Operator+ Bold', monospace;
+}
+
+.green{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: 15rem;
+    margin-left: -10rem;
+}
+
+.blue{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -1rem;
+    margin-left: -5rem;
+}
+
+.orange{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -1rem;
+}
+
+.yellow{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -1rem;
+    margin-left: 5rem;
+}
+
+.pink{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -1rem;
+    margin-left: 10rem;
+}
+
+.progressao{
+    margin-left: 25rem;
+    margin-top: -5rem;
+}
+
 @media (max-width: 576px) {
     .banner {
         background-position: 15%;
@@ -38,6 +85,43 @@
     }
     .perfil {
         margin-top: 5vh;
+    }
+    .progressao{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .green{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .blue{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .orange{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .yellow{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .pink{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
     }
 }
 
@@ -50,6 +134,43 @@
     .nome {
         margin-top: 1vh;
         text-align: center;
+    }
+    .progressao{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .green{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .blue{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .orange{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .yellow{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .pink{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
     }
  }
 
