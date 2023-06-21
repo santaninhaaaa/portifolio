@@ -1,6 +1,12 @@
 @font-face {font-family: "8-bit Operator+ Bold";src: url("../fonts/8bitOperatorPlus-Bold.eot?") format("eot"), url("../fonts/8bitOperatorPlus-Bold.woff") format("woff"), url("../fonts/8bitOperatorPlus-Bold.ttf") format("truetype"), url("../fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold") format("svg");font-weight: normal;font-style: normal;
 }
 
+body {
+    background: url(../img/undertale-bg.jpg);
+    background-size: cover;
+    font-family:'8-bit Operator+ Bold', monospace;
+}
+
 .banner {
     background: url(../img/bg.jpg);
     background-position: center;
@@ -23,20 +29,10 @@
 .nome1 {
     font-size: 4rem;
     color: #ffaec9;
-    font-family:'8-bit Operator+ Bold', monospace;
 }
 .nome2 {
     font-size: 4rem;
     color: #fff200;
-    font-family:'8-bit Operator+ Bold', monospace;
-}
-
-.habilidades {
-    font-family:'8-bit Operator+ Bold', monospace;
-}
-
-.progress-bar{
-    font-family:'8-bit Operator+ Bold', monospace;
 }
 
 .green{
@@ -49,33 +45,55 @@
 .blue{
     rotate: calc(270deg);
     width: 40%;
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: -5rem;
 }
 
 .orange{
     rotate: calc(270deg);
     width: 40%;
-    margin-top: -1rem;
+    margin-top: -2rem;
 }
 
 .yellow{
     rotate: calc(270deg);
     width: 40%;
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: 5rem;
 }
 
 .pink{
     rotate: calc(270deg);
     width: 40%;
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: 10rem;
 }
 
+.red{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -2rem;
+    margin-left: 15rem;
+}
+
+.purple{
+    rotate: calc(270deg);
+    width: 40%;
+    margin-top: -2rem;
+    margin-left: 20rem;
+}
+
 .progressao{
-    margin-left: 25rem;
+    margin-left: 20rem;
     margin-top: -5rem;
+}
+
+.progress {
+    height: 2rem;
+}
+
+.habilidades {
+    padding-bottom: 10rem;
 }
 
 @media (max-width: 576px) {
