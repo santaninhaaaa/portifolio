@@ -141,6 +141,20 @@ body {
         margin-top: 1rem;
         margin-left: 0;
     }
+
+    .red{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .purple{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) { }
@@ -185,6 +199,20 @@ body {
     }
     
     .pink{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .red{
+        rotate: calc(0deg);
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .purple{
         rotate: calc(0deg);
         width: 100%;
         margin-top: 1rem;
